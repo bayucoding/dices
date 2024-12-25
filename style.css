@@ -1,0 +1,40 @@
+.container{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+label{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#textBox{
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+}
+button{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsla(240, 100%, 60%, 0.699);
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  background-color: hsla(240, 100%, 70%, 0.699);
+}
+button:active{
+  background-color: hsla(240, 100%, 80%, 0.699);
+}
+#diceResult{
+  font-weight: bold;
+  margin: 20px;
+}
+#imageResult img{
+  width: 100px;
+  margin: 20px;
+}
